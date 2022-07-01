@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $CFILE -o -E cisfun
+gcc masm=intel $CFILE -o cisfun
