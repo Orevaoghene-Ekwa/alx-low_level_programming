@@ -15,11 +15,11 @@ int main(void)
 		putchar(alphabet);
 	}
 
-	char alphabet;
+	char alphabets;
 
-	for (alphabet = 'A'; alphabet <= 'Z'; alphabet++)
+	for (alphabets = 'A'; alphabets <= 'Z'; alphabets++)
 	{
-		putcahr(alphabet);
+		putchar(alphabets);
 	}
 
 	putchar('\n');
