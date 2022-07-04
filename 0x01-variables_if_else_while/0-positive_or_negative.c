@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /**
- * main - entry point
+ * Main - Entry point
  *
- * return value; (0)
+ * Return: Always 0 (success/correct)
  */
 
 int main(void)
