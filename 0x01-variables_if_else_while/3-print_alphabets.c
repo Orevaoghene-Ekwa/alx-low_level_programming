@@ -10,16 +10,16 @@ int main(void)
 {
 	char alphabet;
 
-	for (alphabet = 'a'; <= alphabet 'z'; alphabet++)
+	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 	{
 		putchar(alphabet);
 	}
 
-	char alphabets;
+	char alphabet;
 
-	for (alphabets = 'A'; <= alphabets 'Z'; alphabets++)
+	for (alphabet = 'A'; alphabet <= 'Z'; alphabet++)
 	{
-		putcahr(alphabets);
+		putcahr(alphabet);
 	}
 
 	putchar('\n');
