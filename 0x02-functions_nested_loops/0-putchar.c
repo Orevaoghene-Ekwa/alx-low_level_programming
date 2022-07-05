@@ -8,12 +8,12 @@
  */
 int main(void)
 {
-	putchar();
+	_putchar();
 
 	return (0);
 }
 
-void putchar(void)
+void _putchar(void)
 {
 	cout << "_putchar\n"
 }
