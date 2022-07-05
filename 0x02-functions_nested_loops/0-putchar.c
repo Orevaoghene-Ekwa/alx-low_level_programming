@@ -8,10 +8,12 @@
  */
 int main(void)
 {
-	char s;
-
-	s = "_putchar";
-	putchar("%c\n", s);
+	putchar();
 
 	return (0);
+}
+
+void putchar(void)
+{
+	cout << "_putchar\n"
 }
