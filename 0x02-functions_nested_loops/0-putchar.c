@@ -3,7 +3,7 @@
 /*
  * _putchar - returns the string _putchar
  *
- * Return: on success 0
+ * Return: on success 1 
  */
 int _putchar(void)
 {
@@ -16,5 +16,5 @@ int _putchar(void)
 	putchar("a");
 	putchar("r");
 	putchar("\n");
-	return (0);
+	return (1);
 }
