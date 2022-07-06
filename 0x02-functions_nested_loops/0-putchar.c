@@ -1,19 +1,17 @@
 #include "main.h"
 
 /*
- * main - returns the string _putchar
+ * _zero - returns the string _putchar
+ * @c: The character to print
  *
- *
- * Return: always 0
+ * Return: on success 1
+ * On error, -1 is returned
  */
-int main(void)
+int _zero(char c)
 {
-	_putchar();
+	char c;
 
-	return (0);
-}
-
-void _putchar(void)
-{
-	cout << "_putchar\n"
+	c = "_putchar";
+	putchar(c);
+	return (1);
 }
