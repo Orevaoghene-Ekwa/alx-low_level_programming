@@ -9,7 +9,6 @@
  */
 int _zero(char c)
 {
-	c = "_putchar";
-	putchar(c);
+	putchar("_putchar");
 	return (1);
 }
