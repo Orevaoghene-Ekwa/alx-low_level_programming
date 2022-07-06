@@ -1,1 +1,1 @@
-int _zero(char c);
+int _putchar(char c);

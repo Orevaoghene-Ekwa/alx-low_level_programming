@@ -1,14 +1,20 @@
 #include "main.h"
 
 /*
- * _zero - returns the string _putchar
- * @c: The character to print
+ * _putchar - returns the string _putchar
  *
- * Return: on success 1
- * On error, -1 is returned
+ * Return: on success 0
  */
-int _zero(char c)
+int _putchar(void)
 {
-	_zero("_putchar");
-	return (1);
+	putchar("_");
+	putchar("p");
+	putchar("u");
+	putchar("t");
+	putchar("c");
+	putchar("h");
+	putchar("a");
+	putchar("r");
+	putchar("\n");
+	return (0);
 }
