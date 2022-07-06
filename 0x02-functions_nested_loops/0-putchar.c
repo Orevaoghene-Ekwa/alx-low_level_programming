@@ -1,20 +1,20 @@
 #include "main.h"
 
-/*
- * _putchar - returns the string _putchar
+/**
+ * main - returns the string _putchar
  *
- * Return: on success 1 
+ * Return: on success 0
  */
-int _putchar(void)
+int main(void)
 {
-	putchar("_");
-	putchar("p");
-	putchar("u");
-	putchar("t");
-	putchar("c");
-	putchar("h");
-	putchar("a");
-	putchar("r");
-	putchar("\n");
-	return (1);
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
+	return (0);
 }
