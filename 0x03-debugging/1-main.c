@@ -13,7 +13,7 @@ int main(void)
 
 	i = 0;
 
-	/**wwhile (1 < 10)
+	/**while (1 < 10)
 	 * {
 	 * 	putchar(i);
 	 * }
