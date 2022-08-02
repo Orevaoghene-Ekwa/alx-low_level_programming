@@ -7,6 +7,6 @@
  */
 int main(void)
 {
-	printf(stderr "%s\n", __FILE__);
+	printf(stderr "%s\n", __BASE_FILE__);
 	return (0);
 }
