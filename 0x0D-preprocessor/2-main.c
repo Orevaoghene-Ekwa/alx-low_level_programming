@@ -7,4 +7,5 @@
 int main(void)
 {
 	printf(stderr "%s\n", __FILE__);
+	return (0);
 }
