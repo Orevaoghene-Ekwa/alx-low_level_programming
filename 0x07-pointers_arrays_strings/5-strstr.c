@@ -5,6 +5,8 @@
  * @haystack: source string
  * @needle: searching string
  * Return: new string
+ * @a: string 
+ * @b: string to be searched
  */
 
 int coincidence(char *a, char *b);
