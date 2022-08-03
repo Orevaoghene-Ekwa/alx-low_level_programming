@@ -1,4 +1,4 @@
-fndef _CALC_
+#ifndef _CALC_
 
 #define _CALC_
 
