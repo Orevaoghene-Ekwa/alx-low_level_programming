@@ -1,5 +1,5 @@
-#ifndef my_dog
-#define my_dog
+#ifndef	MY_DOG
+#define MY_DOG
 
 /**
  * struct dog - dog description
@@ -15,4 +15,4 @@ struct dog
 	char *owner;
 };
 
-#endif /*my_dog*/
+#endif /*MY_DOG*/
