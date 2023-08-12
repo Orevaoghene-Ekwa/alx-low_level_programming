@@ -4,7 +4,7 @@
  * print_times_table - a function that prints the times table, starting from n
  *
  * rone = row, cone = column, d = digits of current result,
- * @n = input
+ * @n: input
  *
  * Return: times table
  */
