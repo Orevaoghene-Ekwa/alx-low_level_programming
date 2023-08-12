@@ -20,6 +20,7 @@ void print_times_table(int n)
 		_putchar('0');
 		_putchar(',');
 		_putchar(' ');
+		_putchar(' ');
 		for (cone = 1; cone <= n; cone++)
 		{
 			d = (rone * cone);
