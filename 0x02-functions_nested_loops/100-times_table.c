@@ -3,7 +3,8 @@
 /**
  * print_times_table - a function that prints the times table, starting from n
  *
- * rone = row, cone = column, d = digits of current result, n = input
+ * rone = row, cone = column, d = digits of current result,
+ * @n = input
  *
  * Return: times table
  */
@@ -18,29 +19,32 @@ void print_times_table(int n)
 		{
 			break;
 		}
-		_putchar('0');
-		_putchar(',');
-		_putchar(' ');
-		_putchar(' ');
-		for (cone = 1; cone <= n; cone++)
+		else
 		{
-			d = (rone * cone);
-			if ((d / 10) > 0)
+			_putchar('0');
+			_putchar(',');
+			_putchar(' ');
+			_putchar(' ');
+			for (cone = 1; cone <= n; cone++)
 			{
-				_putchar((d / 10) + '0');
+				d = (rone * cone);
+				if ((d / 10) > 0)
+				{
+					_putchar((d / 10) + '0');
+				}
+				else
+				{
+					_putchar(' ');
+				}
+				_putchar((d % 10) + '0');
+				if (cone < n)
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
+				}
 			}
-			else
-			{
-				_putchar(' ');
-			}
-			_putchar((d % 10) + '0');
-			if (cone < n)
-			{
-				_putchar(',');
-				_putchar(' ');
-				_putchar(' ');
-			}
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
 }
