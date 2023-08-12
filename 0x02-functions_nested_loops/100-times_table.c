@@ -3,7 +3,7 @@
 /**
  * print_times_table - a function that prints the times table, starting from n
  *
- * rone = row, cone = column, d = digits of current result
+ * rone = row, cone = column, d = digits of current result, n = input
  *
  * Return: times table
  */
@@ -11,6 +11,7 @@
 void print_times_table(int n)
 {
 	int rone, cone, d;
+
 	for (rone = 0; rone <= n; rone++)
 	{
 		if (n > 15 || n < 0)
