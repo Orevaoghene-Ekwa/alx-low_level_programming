@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
 {
 	int a, b, mul;
 
-	if (argc > 3)
+	if (argc > 2)
 	{
 		a = atoi(argv[1]);
 		b = atoi(argv[2]);
@@ -24,7 +24,6 @@ int main(int argc, char *argv[])
 	{
 		print("Error\n");
 
-		return (1);
 	}
 	return (0);`
 }
