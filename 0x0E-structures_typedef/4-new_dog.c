@@ -7,8 +7,7 @@
  *
  * @name: name of the dog
  * @age: Age of dog
- * owner: Owner of dog's name
- * @p: pointer to dog_t struct
+ * @owner: Owner of dog's name
  *
  * Return: p
  */
@@ -26,16 +25,16 @@ dog_t *new_dog(char *name, float age, char *owner)
 	{
 		free(p);
 		free(owner);
-		return(NULL);
+		return (NULL);
 	}
 	if (owner == NULL)
 	{
 		free(p);
 		free(name);
-		return(NULL);
+		return (NULL);
 	}
 	p->name = name;
 	p->age = age;
 	p->owner = owner;
-	return(p);
+	return (p);
 }
