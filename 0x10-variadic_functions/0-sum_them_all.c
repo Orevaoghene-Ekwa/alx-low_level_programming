@@ -12,12 +12,17 @@ int sum_them_all(const unsigned int n, ...)
 	int i, sum = 0;
 	
 	va_start(args, n);
-
-	while (i < n)
+	
+	if (n == 0)
+		return (0);
+	else
 	{
-		sum += va_args(args, int);
-		i++;
+		while (i < n)
+		{
+			sum += va_args(args, int);
+			i++;
+		}
+		va_end;
+		return (sum);
 	}
-	va_end;
-	return (sum);
 }
