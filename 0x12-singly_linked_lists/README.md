@@ -5,7 +5,7 @@ in C while learning when and why to use linked lists versus arrays.
 
 ## Tests :heavy_check_mark:
 
-* [tests](./tests): Folder of test files. 
+* [tests](./tests): Folder of test files.
 
 ## Header File :file_folder:
 
